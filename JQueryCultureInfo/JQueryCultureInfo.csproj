@@ -60,6 +60,7 @@
     <Content Include="Index.html" />
     <Content Include="jquery-1.11.3.min.js" />
     <Content Include="jquery-cultureinfo-1.0.0.0.js" />
+    <Content Include="jquery-cultureinfo-1.0.0.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
