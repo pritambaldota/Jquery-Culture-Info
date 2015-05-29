@@ -21,12 +21,13 @@ This culture object has following properties:
 * Include JQuery Library reference to your web page
 * Include JQuery Localized Culture Plugin minified version or debug version
 * Use $.getCultureInfoByLCID() method to search by LCID
-
-> var cultureInfo = $.getCultureInfoByLCID(1033);
+```javascript
+var cultureInfo = $.getCultureInfoByLCID(1033);
+```
 
 * Use $.GetCultureInfoByCultureName() method to search by Culture Name
-
-> var cultureInfo = $.GetCultureInfoByCultureName('en-us');
-
+```javascript
+var cultureInfo = $.GetCultureInfoByCultureName('en-us');
+```
 ## Demo Web Page
 ![How to use Demo](/demo.jpg)
