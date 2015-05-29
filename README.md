@@ -26,3 +26,4 @@ To solve this problem, I have created small jQuery plugin which will give you th
 > var cultureInfo = $.GetCultureInfoByCultureName('en-us');
 
 ## Demo Web Page
+![How to use Demo](/demo.jpg)
