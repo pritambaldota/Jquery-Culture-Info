@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>PritamBaldota.JqueryCultureInfo</id>
+    <version>1.0</version>
+	<title>Jquery Localized Culture Information</title>
+    <authors>Pritam Baldota</authors>
+    <owners>Pritam Baldota</owners>
+    <licenseUrl>https://github.com/pritambaldota/Jquery-Localized-CultureInfo/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/pritambaldota/Jquery-Localized-CultureInfo</projectUrl>
+    <iconUrl>https://secure.gravatar.com/avatar/dbc475c4a861835619e87a443b5d9d3c</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Accessing Culture Information in JavaScript is always difficult and most of the web developer has to search on internet for this information. There may be several options available to fetch this information int Server-side technologies like ASP.Net, JAVA, PHP, and etc. But in JavaScript it is very difficult to find this information at one place.
+
+To solve this problem, I have created small jQuery plugin which will give you this infomration at one place. You can search for Culture information by LCID (for e.g. 1033) or by Culture Name (for e.g. en-US), which will return you JSON Object. This plugin can be used in any of your favourite application which supports JavaScript.</description>
+		<dependencies>
+            <dependency id="jQuery" version="1.10.0" />
+        </dependencies>
+  </metadata>
+  
+  <files>
+    <file src="scripts\*.js" target="content\scripts" />
+	<file src="*.html" target="content" />
+  </files>
+</package>
