@@ -17,7 +17,14 @@ This culture object has following properties:
 * Country Name Abbrevation
 * Language Name Abbrevation
 
-## How to use
+## Installing via the [NuGet](https://www.nuget.org/packages/PritamBaldota.JqueryCultureInfo) Package
+Jquery Localized Culture Information is a NuGet package that augments an existing empty ASP.NET project. Just install using NuGet and then run demo.html!
+
+```nuget
+Install-Package PritamBaldota.JqueryCultureInfo
+```
+
+## Install Manually by downloading the source or Cloning the repository
 * Include JQuery Library reference to your web page
 * Include JQuery Localized Culture Plugin minified version or debug version
 * Use $.getCultureInfoByLCID() method to search by LCID
