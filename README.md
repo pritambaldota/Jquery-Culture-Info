@@ -4,8 +4,6 @@ There may be several options available to fetch this information int Server-side
 
 To solve this problem, I have created small jQuery plugin which will give you this infomration at one place. You can search for Culture information by LCID (for e.g. 1033) or by Culture Name (for e.g. en-US), which will return you JSON Object. This plugin can be used in any of your favourite application which supports JavaScript.  
 
-This culture object has following properties: 
-
 ## Properties available with resulting JSON Object
 * LCID - Locale Identifier number like 1033.
 * Culture Name - For e.g. en-US
