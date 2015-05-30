@@ -1,5 +1,5 @@
-# Jquery Localized Culture Information
-Accessing Culture Information in JavaScript is always difficult and most of the web developer has to search on internet for this information. 
+# Jquery Culture Information
+Accessing Culture Information for all available cultures in JavaScript is always difficult and most of the web developer has to search on internet for this information. 
 There may be several options available to fetch this information int Server-side technologies like ASP.Net, JAVA, PHP, and etc. But in JavaScript it is very difficult to find this information at one place.
 
 To solve this problem, I have created small jQuery plugin which will give you this infomration at one place. You can search for Culture information by LCID (for e.g. 1033) or by Culture Name (for e.g. en-US), which will return you JSON Object. This plugin can be used in any of your favourite application which supports JavaScript.  
